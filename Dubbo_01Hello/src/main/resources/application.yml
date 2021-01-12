@@ -1,0 +1,13 @@
+server:
+  address: 9080
+spring:
+  application:
+    name: Dubbo4Hello
+dubbo:
+  application:
+    name: MyHelloService
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  protocol:
+    name: dubbo
+    #port: 20882

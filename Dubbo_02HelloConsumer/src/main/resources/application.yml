@@ -1,0 +1,10 @@
+server:
+  port: 9081
+spring:
+  application:
+    name: HelloConsumer
+dubbo:
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  protocol:
+    name: MyHelloConsumer
